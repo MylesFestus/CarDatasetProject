@@ -52,8 +52,7 @@ A **complete ML pipeline**, not just a model:
 
 ---
 
-## 🧠 Key Insight (The “Aha” Moment)
-
+## 🧠 Key Insight (The “Eureka” Moment)
 > **Car prices are not linear.**
 
 Simple models (Ridge) struggle because:
@@ -63,7 +62,6 @@ Simple models (Ridge) struggle because:
 * Engine size interacts with **cylinder configuration**
 
 👉 **Tree-based models (XGBoost, Gradient Boosting)** outperform because they *learn these interactions automatically*.
-
 ---
 
 ## 🏆 Results That Matter
@@ -74,7 +72,6 @@ Simple models (Ridge) struggle because:
 * ⚙️ Fully reusable trained model pipeline
 
 ✔ The model is not just accurate — it’s **reliable and deployable**
-
 ---
 
 ## 🔍 What Drives Car Prices?
@@ -109,7 +106,6 @@ From both feature importance and domain interpretation:
 * `cc_per_cyl` → engine refinement
 
 👉 These features significantly improved model performance
-
 ---
 
 ### Smart Modeling Choices
@@ -118,7 +114,6 @@ From both feature importance and domain interpretation:
 * Applied **RobustScaler** to handle outliers
 * Chose **RandomizedSearchCV** for efficient tuning
 * Built a **composite scoring system** instead of relying on one metric
-
 ---
 
 ### Model Selection Strategy
@@ -130,11 +125,9 @@ Composite Score = 40% R² + 35% (1/RMSE) + 25% (1/MAPE)
 ```
 
 👉 This balances:
-
 * Accuracy
 * Error magnitude
 * Business relevance
-
 ---
 
 ## 📊 Visual Evidence
@@ -149,7 +142,6 @@ Composite Score = 40% R² + 35% (1/RMSE) + 25% (1/MAPE)
   <img src="outputs/actual_vs_predicted.png" width="45%">
   <img src="outputs/residuals.png" width="45%">
 </p>
-
 ---
 
 ## 🚀 From Model → Production
@@ -163,7 +155,6 @@ This project doesn’t stop at training:
 * API deployment (Flask / FastAPI)
 * Dashboard (Streamlit)
 * Integration into pricing systems
-
 ---
 
 ## ⚠️ Challenges & How I Solved Them
@@ -175,7 +166,6 @@ This project doesn’t stop at training:
 | Small dataset             | Cross-validation for reliability  |
 | Non-linear relationships  | Ensemble models                   |
 | Outliers                  | IQR filtering + RobustScaler      |
-
 ---
 
 ## 📈 What I’d Improve Next
@@ -186,7 +176,6 @@ This project doesn’t stop at training:
 * Build a **live pricing app (Streamlit)**
 
 ---
-
 ## 🧰 Tech Stack
 
 * Python (pandas, numpy)
@@ -194,16 +183,13 @@ This project doesn’t stop at training:
 * XGBoost
 * matplotlib / seaborn
 * joblib
-
 ---
 
 ## 📌 Final Takeaway
 
 > This project demonstrates not just model building, but **end-to-end problem solving**:
-
 * Turning raw data into meaningful features
 * Choosing the *right* models (not just complex ones)
 * Balancing metrics with business impact
 * Delivering a solution that can actually be used
-
 ---

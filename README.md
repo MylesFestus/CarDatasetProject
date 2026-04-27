@@ -11,7 +11,6 @@
   <img src="https://img.shields.io/badge/Focus-Business%20Impact-orange">
   <img src="https://img.shields.io/badge/Status-Production%20Ready-brightgreen">
 </p>
-
 ---
 
 ## 🎯 The Goal
@@ -25,7 +24,6 @@ This project answers a practical question:
 And more importantly:
 
 > **Which factors actually drive price — and how can businesses use that insight?**
-
 ---
 
 ## 💼 Why This Project Matters
@@ -49,7 +47,6 @@ A **complete ML pipeline**, not just a model:
 * Automatic **best-model selection**
 * Exportable pipeline (ready for deployment)
 * Diagnostic visualizations for interpretation
-
 ---
 
 ## 🧠 Key Insight (The “Eureka” Moment)
@@ -94,7 +91,6 @@ From both feature importance and domain interpretation:
 
 * Heavier cars → higher cost
 * Better MPG → lower cost (in most cases)
-
 ---
 
 ## 🧪 Technical Highlights
@@ -174,7 +170,6 @@ This project doesn’t stop at training:
 * Use **Optuna** for smarter hyperparameter tuning
 * Integrate **external brand value data**
 * Build a **live pricing app (Streamlit)**
-
 ---
 ## 🧰 Tech Stack
 
